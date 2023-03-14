@@ -32,7 +32,7 @@ public class UserRepository {
         return new User("gleyson","password");
     }
     public User findByUsername(String username){
-        System.out.println(String.format("FIND/username - Recebendo o usernamae: %s para localizar um usuário", username));
+        System.out.println(String.format("FIND/username - Recebendo o username: %s para localizar um usuário", username));
         return new User("gleyson","password");
     }
 }
